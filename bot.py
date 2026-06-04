@@ -5,7 +5,7 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from apscheduler.triggers.cron import CronTrigger
 import json
 
-TOKEN = "8660752399:AAHWoROIf3HWhaOZIpGZl4ejOqQ2zOvONp0"
+TOKEN = "8660752399:AAG_q-PahDldxY6faIe9BgafnqRW5a0Iw00"
 
 ADMIN_USERNAME = "cowboy0330"
 
