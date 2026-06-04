@@ -258,6 +258,8 @@ app.add_handler(CommandHandler("groupid", groupid))
 
 import asyncio
 
+import asyncio
+
 print("봇 실행 중...")
 
 loop = asyncio.new_event_loop()
