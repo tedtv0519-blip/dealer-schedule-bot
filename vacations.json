@@ -1,1 +1,5 @@
-{}
+try:
+    with open("vacations.json", "r", encoding="utf-8") as f:
+        vacations = json.load(f)
+except:
+    vacations = {}
