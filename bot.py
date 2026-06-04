@@ -234,5 +234,8 @@ app.add_handler(CommandHandler("groupid", groupid))
 
 # scheduler.start()
 
+import asyncio
+
 print("봇 실행 중...")
+asyncio.set_event_loop(asyncio.new_event_loop())
 app.run_polling()
