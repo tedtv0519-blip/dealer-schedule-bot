@@ -79,16 +79,17 @@ async def vacation(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
     vacation_date = context.args[0]
 
-   try:
+try:
     with open("vacations.json", "r", encoding="utf-8") as f:
         vacations = json.load(f)
+
 except:
     vacations = {}
 
-        if user not in vacations:
-            vacations[user] = []
+if user not in vacations:
+    vacations[user] = []
 
-        vacations[user].append(vacation_date)
+vacations[user].append(vacation_date)
 
         with open("vacations.json", "w", encoding="utf-8") as f:
             json.dump(
