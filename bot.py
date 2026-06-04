@@ -256,5 +256,11 @@ app.add_handler(CommandHandler("vacations", vacations))
 app.add_handler(CommandHandler("edit", edit))
 app.add_handler(CommandHandler("groupid", groupid))
 
+import asyncio
+
 print("봇 실행 중...")
+
+loop = asyncio.new_event_loop()
+asyncio.set_event_loop(loop)
+
 app.run_polling()
