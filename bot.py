@@ -4,7 +4,7 @@ from datetime import date, datetime
 import json
 import os
 
-TOKEN = "8660752399:AAG_q-PahDldxY6faIe9BgafnqRW5a0Iw00"
+TOKEN = "8660752399:AAHzLCt_m4_EzIJBjWTYpEgKjMac7-555Kw"
 
 ADMIN_USERNAME = "cowboy0330"
 GROUP_ID = -5123266102
